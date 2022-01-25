@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
+html, body{
+    height: 100%;
+}
+
+/* Digital Clock CSS Start */
+.clock-area {
+    height: 100%;
+    background: black;
+    color: white;
+}
+
+.colck-text {
+    width: 400px;
+    background: black;
+    text-align: center;
+    padding: 50px 0px;
+    font-size: 50px;
+    box-shadow: 1px 1px 8px 4px #17d4fef7;
+    border-radius: 5px;
+    color: white;
+    font-family: 'Orbitron', sans-serif;
+}
+.colck-text span{
+    color: #17D4FE;
+}
+.colck-text small#format {
+    font-size: 30px;
+}
+
+/* Digital Clock CSS Start */
+
+
+/* Color Generators Start */
+.color-palet {
+    width: 230px;
+    height: 150px;
+    background: #b0e0bc;
+}
+
+.color-items {
+    height: 100%;
+    width: 100%;
+}
+
+.color-generator-area {
+    height: 100%;
+}
+.single-item {
+    margin: 40px 0;
+}
+.color-code {
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+.color-code::selection{
+    background-color: yellow;
+    color: black;
+}
+.second-palet{
+    background-color: #944588;
+}
+.third-palet{
+    background-color: #332345;
+}
+
+.color-generator-area {
+    background: black;
+}
+
+.color-generator-area h2 {
+    font-family: 'Orbitron', sans-serif;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+}
+.generate_btn {
+    background-color: #17D4FE;
+    color: black;
+}
+/* Color Generators End */
+
